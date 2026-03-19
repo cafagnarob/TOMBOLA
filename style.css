@@ -1,0 +1,74 @@
+body {
+  background: #833ab4;
+  background: linear-gradient(
+    158deg,
+    rgba(131, 58, 180, 1) 50%,
+    rgba(253, 29, 29, 1) 88%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  margin: 0;
+  min-width: 100vh;
+  min-height: 100vh;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  max-width: 860px;
+  min-width: 860px;
+  margin: 0 auto;
+}
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 3em;
+  padding: 20px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #171721;
+  font-size: 6em;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+  color: #000000;
+  margin: 30px;
+}
+
+.numCell {
+  display: inline-block;
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.numCell.estratto {
+  background: #ff7130;
+  background: radial-gradient(
+    circle,
+    rgba(255, 113, 48, 1) 0%,
+    rgba(252, 70, 107, 0) 53%
+  );
+  font-weight: bold;
+}
+
+hr {
+  border: 5px solid #171721;
+  border-radius: 50px;
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#numeriEstratti {
+  font-size: 3em;
+  font-weight: bold;
+  color: #171721;
+  padding-bottom: 20px;
+}
